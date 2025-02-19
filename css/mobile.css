@@ -1,26 +1,31 @@
 #content {
     display: block;
     width: 100%;
-    margin: 0;
-}
-#photo {
-    display: block;
     margin: 20px;
+    padding: 15px;
 }
+
 #photo {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#photoIMG {
+    width: 200px;
     height: auto;
 }
-#photoIMG {
-    clip-path: circle();
-}
+
 #description {
-    clear: both;
-    margin: 20px;
+    padding: 0;
 }
-h1 {
-    margin-bottom: 20px;
+
+.skills {
+    margin: 1rem 0;
 }
-p, ul {
-    margin: 0;
+
+ul:not(.skills) {
+    justify-content: center;
+    margin-top: 2rem;
 }
